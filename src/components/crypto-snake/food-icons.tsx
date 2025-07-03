@@ -8,11 +8,11 @@ interface FoodDisplayProps {
 }
 
 const foodIconMap: Record<FoodType, string> = {
-  BTC: '/icons/btc.ico',
-  ETH: '/icons/eth.ico',
-  SONIC: '/icons/sonic.ico',
-  '1INCH': '/icons/1inch.ico',
-  AARNA: '/icons/aarna.ico',
+  BTC: '/btc.ico',
+  ETH: '/eth.ico',
+  SONIC: '/sonic.ico',
+  '1INCH': '/1inch.ico',
+  AARNA: '/aarna.ico',
 };
 
 export const FoodDisplay = ({ type }: FoodDisplayProps) => {
